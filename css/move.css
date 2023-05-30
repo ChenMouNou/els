@@ -1,0 +1,202 @@
+body {
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #666;
+	line-height: 1.5;
+}
+
+.top {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	max-width: 640px;
+	min-width: 320px;
+	background: skyblue;
+}
+
+.btn {
+	position: absolute;
+	width: 40px;
+	height: 50px;
+	background: url(../img/tupiao.png);
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.login {
+	position: absolute;
+	width: 40px;
+	height: 50px;
+	line-height: 50px;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	/* background: #ffaaff; */
+}
+
+.login img {
+	vertical-align: middle;
+}
+
+.serch {
+	height: 40px;
+	line-height: 40px;
+	border-radius: 25px;
+	background: #ffffff;
+	margin: 0 50px;
+	margin-top: 5px;
+	color: #d9d9d9;
+	cursor: text;
+}
+
+.nav {
+	position: relative;
+	width: 100%;
+	margin-top: 0px;
+	overflow: hidden;
+}
+
+.nav img {
+	width: 100%;
+	float: left;
+}
+
+.box {
+	width: 100%;
+}
+
+.textboxlbox {
+	position: relative;
+	width: 100%;
+	/* background: #000000; */
+	/* margin-top: 50px; */
+}
+
+.textboxlbox>div {
+	position: relative;
+	width: 100%;
+	height: 190px;
+	background-color: #f4f4f4;
+	margin-bottom: 10px;
+}
+
+/* .textboxlbox>div:hover {
+	transform: translateY(-5px);
+	transition: all 1s;
+} */
+
+.textboxlbox div>img {
+	position: absolute;
+	display: block;
+	width: 14%;
+	margin-top: 28px;
+	margin-left: 20px;
+}
+
+.boxtext {
+	position: absolute;
+	width: 83%;
+	/* height: 180px; */
+	top: 50%;
+	margin-top: -90px;
+	margin-left: 17%;
+}
+
+.boxtext ul {
+	position: relative;
+	list-style: none;
+	width: 86%;
+	height: 160px;
+	/* background-color: #0000FF; */
+	/* margin-top: 20px; */
+}
+
+.boxtext ul li {
+	position: relative;
+	width: 86%;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.boxtext li p {
+	position: relative;
+	display: inline-block;
+	width: 120%;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #aaaaaa;
+}
+
+.boxtext li a {
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+}
+
+.boxtext li a:hover {
+	color: #87CEEB;
+}
+
+.boxtext ul>div {
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+	opacity: 0.5;
+}
+
+.textboxr {
+	box-sizing: border-box;
+	position: relative;
+	width: 30%;
+	height: 800px;
+	/* border: 1px solid blue; */
+	float: left;
+}
+
+.biaoq a:hover {
+	color: #87CEEB;
+}
+.imgbox img {
+	width: 640px;
+	height: 400px;
+}
+.imgbox {
+	width: 3200px;
+	height: 400px;
+}
+.l {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	left: 0;
+	color: white;
+	background: #000000;
+	opacity: 0.8;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+}
+.r {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	right: 0;
+	color: white;
+	background: #000000;
+	opacity: 0.8;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+}

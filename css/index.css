@@ -1,0 +1,521 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 顶部 */
+.hb {
+	top: 0;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: 90px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.headbox {
+	margin: 0 auto;
+	width: 1200px;
+	height: 90px;
+	/* background-color: black; */
+	/* border: 1px solid black; */
+}
+
+.headbox div {
+	float: left;
+}
+
+.logo {
+	height: 50px;
+	width: 14.5%;
+	margin-top: 20px;
+	background-color: white;
+	border-right: 2px solid #d0d0d0;
+	background: url(../img/家宠百科1.png) no-repeat;
+}
+
+.tag {
+	height: 90px;
+	width: 58.5%;
+	/* overflow: initial; */
+	/* background-color: antiquewhite; */
+}
+.tag>input {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 25px;
+	float: right;
+}
+.tag ul {
+	position: relative;
+	margin-left: 30px;
+	width: 100%;
+}
+
+.tag ul li {
+	margin-left: 40px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 16px;
+	float: left;
+	list-style: none;
+	font-weight: 700;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	/* cursor: pointer; */
+}
+
+.person {
+	width: 26.5%;
+	height: 90px;
+	/* background-color: black; */
+}
+
+.person p {
+	font-size: 16px;
+}
+
+.person>span {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 30px;
+	margin-top: 25px;
+	float: left;
+	border-radius: 50%;
+	background-color: #eee;
+	opacity: 0.8;
+}
+
+.person span:nth-child(2) {
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 40px;
+	border-radius: 10%;
+	background: url(../img/登录2.png) no-repeat #eee;
+}
+
+.person span:nth-child(1) {
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 10%;
+}
+
+.person span:nth-child(3) {
+	line-height: 40px;
+	text-align: center;
+	background: url(../img/灯3.png);
+}
+
+body {
+	max-width: 100%;
+	min-width: 320px;
+	background-color: white;
+}
+
+/* 通栏 */
+.nav {
+	position: relative;
+	margin-top: 90px;
+	width: 100%;
+	height: 400px;
+	/* border: 1px solid red; */
+	background-color: #ececec;
+}
+
+.navimg {
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	height: 400px;
+	/* border: 1px solid red; */
+	/* background: url(../img/cat.jpg);
+				background-size: 600px 400px; */
+}
+
+.navimgm {
+	position: relative;
+	overflow: hidden;
+	width: 600px;
+	height: 400px;
+}
+
+.navimgm>div {
+	/* position: absolute; */
+	width: 600px;
+	height: 400px;
+}
+
+.navimgm img {
+	width: 600px;
+	height: 400px;
+}
+
+.navimgm>div:not(:first-child) {
+	display: none;
+}
+
+
+
+
+/* 内容块 */
+.middlebox {
+	width: 100%;
+	/* height: 800px; */
+	/* background-color: #dedede; */
+}
+
+.contentbox {
+	margin: 0 auto;
+	width: 1200px;
+	/* height: 800px; */
+	/* border: 1px solid #87CEEB; */
+
+}
+
+.textboxl {
+	box-sizing: border-box;
+	width: 70%;
+	/* height: 800px; */
+	/* border: 1px solid red; */
+	float: left;
+}
+
+.textboxl>p {
+	width: 130px;
+	height: 50px;
+	font-size: 24px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 20px;
+	font-weight: 700;
+	background-color: #f4f4f4;
+}
+
+hr {
+	width: 680px;
+	margin-top: -25px;
+	margin-left: 130px;
+}
+
+.textboxlbox {
+	width: 810px;
+	/* background: #000000; */
+	margin-top: 50px;
+}
+
+.textboxlbox>div {
+	position: relative;
+	width: 810px;
+	height: 220px;
+	background-color: #f4f4f4;
+	margin-bottom: 10px;
+}
+
+.textboxlbox>div:hover {
+	transform: translateY(-5px);
+	transition: all 1s;
+}
+
+.textboxlbox div>img {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	top: 50%;
+	margin-top: -90px;
+	margin-left: 20px;
+}
+
+.boxtext {
+	position: absolute;
+	width: 600px;
+	height: 180px;
+	top: 50%;
+	margin-top: -90px;
+	margin-left: 210px;
+}
+
+.boxtext ul {
+	list-style: none;
+	width: 580px;
+	height: 160px;
+	/* background-color: #0000FF; */
+	margin-top: 20px;
+}
+.boxtext ul li {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+}
+.boxtext li p {
+	display: inline-block;
+	width: 560px;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #aaaaaa;
+}
+
+.boxtext li a {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.boxtext li a:hover {
+	color: #87CEEB;
+}
+
+.boxtext ul>div {
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+	opacity: 0.5;
+}
+
+.textboxr {
+	box-sizing: border-box;
+	position: relative;
+	width: 30%;
+	height: 800px;
+	/* border: 1px solid blue; */
+	float: left;
+}
+.biaoq a:hover {
+	color: #87CEEB;
+}
+.biaoq {
+	width: 360px;
+	/* border: 1px solid red; */
+}
+.biaoq p {
+	display: inline-block;
+	float: left; 
+	width: 100px;
+	height: 22px;
+	font-size: 16px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #f4f4f4;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/* border: 1px solid red; */
+}
+
+.bqbox {
+	position: absolute;
+	top: 76px;
+}
+
+.serchbox {
+	width: 292px;
+}
+
+/* 底部块 */
+footer {
+	width: 100%;
+	background-color: #ececec;
+}
+.footerbox {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	height: 200px;
+	background-color: #ececec;
+}
+
+.flogo {
+	height: 50px;
+	width: 14.5%;
+	margin-left: 80px;
+	background-color: white;
+	background: url(../img/家宠百科1.png) no-repeat;
+}
+
+.logox {
+	font-size: 8px;
+	line-height: 20px;
+	margin-left: 80px;
+	float: left;
+	opacity: 0.6;
+}
+
+.logos {
+	position: absolute;
+	height: 42px;
+	width: 10%;
+	background-color: #ffffff;
+	border-radius: 5px 0 0 5px;
+	border-right: none;
+	font-size: 8px;
+	outline: none;
+	left: 60%;
+}
+
+.logos1 {
+	position: absolute;
+	height: 46px;
+	width: 30px;
+	background-color: #ffffff;
+	border-radius: 0 5px 5px 0;
+	font-size: 8px;
+	background-color: #87CEEB;
+	border-left: none;
+	outline: none;
+	cursor: pointer;
+	left: 70%;
+}
+
+/* 侧边栏 */
+.aside {
+	position: fixed;
+	/* background: #D0D0D0; */
+	right: 40px;
+	bottom: 0;
+	z-index: 10;
+	width: 40px;
+	height: 170px;
+}
+
+.aside ul {
+	width: 30px;
+	height: 150px;
+	margin-top: 50px;
+}
+
+.aside ul>li {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #ff5500;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.gif {
+	position: absolute;
+	z-index: 999;
+	border-radius: 10px;
+	top: -40px;
+	left: -40px;
+	opacity: 0.8;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.dbox {
+	width: 1200px;
+	margin: 0 auto;
+}
+.dboxs {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 20px;
+	/* background-color: #2C2C2C; */
+}
+.dboxs>div {
+	float: left;
+}
+.dboxs>div:first-child {
+	width: 300px;
+	height: 300px;
+	/* s */
+}
+.dboxs>div img {
+	width: 300px;
+	height: 300px;
+}
+.dboxs>div:nth-child(2) {
+	box-sizing: border-box;
+	width: 70%;
+	height: 300px;
+	margin-left: 60px;
+	border: 1px dashed black;
+	background-color: #ececec;
+}
+.dboxs>div ul li {
+	list-style: none;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+#footls1{
+    position: fixed;
+    left: 0%;
+    bottom: 10%;
+}
+#footls2{
+    position: fixed;
+    left: 0.7%;
+    bottom: 20%;
+}
+.footls3{/* 删除黑点 */
+       list-style: none;
+       padding-left: 0; /* 可选 */
+       position: fixed;
+       left: 1%;
+       bottom: 45%;
+       line-height: 1.5; /* 120% of font size */
+  }
+.size_color{
+	font-size: 22px;
+	color: rgb(214, 229, 145);
+}
+
+/* we.html */
+.image-list {
+	display: flex;
+	flex-direction: row; /* 水平排列 */
+	list-style: none; /* 隐藏默认的列表标记 */
+	padding: 0;
+	margin: 0;
+  }
+  
+  /* 调整图片和文本的位置关系 */
+  .image-list li {
+	position: relative;
+  }
+  
+  .image-list img {
+	border-radius: 50%;
+	display: block;
+	width: 150px;
+	height: 150px;
+  }
+  
+  .image-list p {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	margin: 0;
+  }

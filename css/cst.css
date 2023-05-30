@@ -1,0 +1,167 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			header{
+				position: relative;
+				/* 绝对定位 */
+				left: 0;
+				top: 0;
+				display: flex;
+				/* 弹性布局 */
+				justify-content: space-between;
+				align-items: center;
+				padding: 15px 100px;
+				z-index: 10;
+				background: #00FFFF;
+			}
+			/* .header .logo{
+				position: relative;
+				/* 相对定位 
+				color: #fff;
+				text-decoration: none;
+				/* 去掉下划线 
+			}*/
+			header .search{
+				position: relative;
+				width: 300px;
+				height: 40px;
+			}
+			header .search input{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				counter-reset: #fff;
+				background: transparent;
+				outline: none;
+				border: 1px solid #fff;
+				border-radius: 5px;
+				padding: 0 10px 0 45px;
+			}
+			header .search .fa-search{
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				left: 10px;
+				color: #fff;
+				border-right: 1px solid #fff;
+				padding-right: 10px;
+				}
+			.banner{
+				background: #eee;
+				padding: 50px 100px 100px;
+				min-height: 100vh;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.banner .center{
+				max-width: 1000px;
+			}
+			.banner .center h2{
+				font-size: 2.5em;
+				color: #333333;
+				margin-bottom: 20px;
+			}
+			.banner .center ul li{
+				font-size: 1em;
+				color:#333333;
+				list-style: none;
+			}
+			.banner .center a{
+				text-decoration: none;
+				display: inline-block;
+				color: #fff;
+				background: yellowgreen;
+				padding: 10px 20px;
+				font-weight: 600;
+				margin-top: 20px;
+			}
+			.banner .dl{
+				max-width: 250px;
+				margin-left: 50px;
+			}
+			
+			.banner .dl{
+				width: 330px;
+				/* height: 100%; */
+				background-color: #55FF00;
+				/* position: absolute; */
+				right: 0;
+				border-radius:30px 30px 30px 30px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.banner .dl h1{
+				font-size: 36px;
+				margin: 60px 0;
+				color: #fff;
+			}
+			.banner .dl input{
+				margin-bottom: 20px;
+				width: 200px;
+				height: 36px;
+				padding: 0 20px;
+				border-radius: 36px;
+				border: none;
+				outline: none;
+				font-size: 18px;
+			}
+			.banner .dl button{
+				margin-top: 20px;
+				width: 200px;
+				height: 40px;
+				background-color: #00FFFF;
+				border: none;
+				border-radius: 40px;
+				color: #fff;
+				font-size: 18px;
+			}
+			
+			@media (max-width:1170px){
+				header{
+					padding: 10px 20px;
+					flex-direction: column;
+				}
+				.banner{
+					padding: 150px 20px 50px;
+					flex-direction: column-reverse;
+				}
+				.banner .dl{
+					margin-left: 0;
+					max-width: 30%;
+				}
+				.banner .center h2{
+					font-size: 1.5em;
+				}
+			}
+			
+			@media (max-width:991px) {
+				header{
+					padding: 10px 20px;
+					flex-direction: column;
+				}
+				.banner{
+					padding: 150px 20px 50px;
+					flex-direction: column-reverse;
+				}
+				.banner .dl{
+					margin-left: 0;
+					max-width: 90%;
+				}
+				.banner .center h2{
+					font-size: 1.5em;
+				}
+			}
+			@media (max-width:500px) {
+				header .search{
+					width: 100%;
+				}
+				
+				.banner .dl{
+					margin-top: 30px;
+				}
+			}

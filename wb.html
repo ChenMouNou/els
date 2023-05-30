@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>家宠百科</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=yes" />
+		<!-- <script src="./js/sty.js"></script> -->
+		<link rel="stylesheet" href="./css/index.css" type="text/css"/ class="o">
+		<link rel="icon" href="./img/Keqing.png">
+        <style>
+            .container {
+                display: flex;
+                justify-content: center; /* 水平居中 */
+                align-items: center; /*垂直居中*/
+                height: 100vh; /* 让容器高度等于视窗高度 */
+            }
+            .imgs{
+            align-items: center; /*垂直居中*/
+            }
+            ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            }
+          
+            li {
+            padding: 10px;
+            }
+            p {
+                color: black;
+            }
+            body {
+            background: linear-gradient(to bottom, #50e8ff, #60aedf);
+            }
+        </style>
+	</head>
+	<body id="h">
+		<!--网页头部<header></header>
+			底部信息<footer></footer>
+			导航<nav></nav>
+			文章<article></article> 
+			侧边栏<aside></aside>
+			时间标签<time></time>
+			
+				h1:网站大标题
+			　　h2:网站副标题
+			　　h3:网站分类目录
+			　　h4:网站的文章分类
+			　　h5:文章标注
+			　　h6:tag标签
+			-->
+		<header>
+			<div class="hb">
+			<div class="headbox">
+				<div class="logo"></div><!-- logo图片 -->
+				<div class="tag"><!-- 标签分类 -->
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="dog.html">狗狗</a></li>
+						<li><a href="cat.html">猫咪</a></li>
+						<li><a href="bird.html">家鸟</a></li>
+						<li><a href="water.html">水族</a></li>
+						<li><a href="reptile.html">爬虫</a></li>
+						<li><a href="we.html">关于我们</a></li>
+					</ul>
+					<input type="search" placeholder="输入"/>
+				</div>
+				<div class="person"><!-- 小功能区 -->
+					<span onmouseover="l()" class="serch"><a href="#">搜索</a></span><!-- 搜索按钮 -->
+					<span onmouseover="l()"><a href="dl.html">登录</a></span><!-- 登录按钮 -->
+					<span onmouseover="l()" class="p" style="nav-index: "1";" onmouseup="op()"></span><!-- 换色按钮 -->
+				</div>
+			</div><!-- 顶部标签栏 -->
+			</div>
+		</header>
+        <br/><br/><br/><br/><br/>
+        <div class="container">
+            <ul class="image-list">
+                <h2>设计人员：</h2>
+                <li><a href="https://linjiangyu.com">
+                  <img src="img/ljy.jpg" alt="image1">
+                  <p>林填</p>
+                </a></li>
+                <li><a href="https://cheyunhai.xyz">
+                  <img src="img/cyh.jpg" alt="image2">
+                  <p>车云海</p>
+                </a></li>
+                <li><a href="https://wangjiexian.xyz">
+                  <img src="img/wjx.jpg" alt="image3">
+                  <p>王杰贤</p>
+                </a></li>
+                <li><a href="https://chenmou.xyz">
+                    <img src="img/cqy.jpg" alt="image3">
+                    <p>陈清源</p>
+                </a></li>
+              </ul>
+        </div>
+        <br/><br/><br/><br/><br/>
+        <img src="./img/家宠百科2.png" alt="logo">
+    </body>
